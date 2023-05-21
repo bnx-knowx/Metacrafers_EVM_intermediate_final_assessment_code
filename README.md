@@ -39,7 +39,7 @@ Step 2->
        string public greet = "Hello World!";
    }   
    ```
-Now Copy and past the my code in HelloWorld.sol and rename it to error.sol
+Now Copy and past the my code from ` Error_Handling_in_solidity_with_require_assert_revert_functions ` in HelloWorld.sol and rename it to error.sol
 
 3. Prepare the migration
 
