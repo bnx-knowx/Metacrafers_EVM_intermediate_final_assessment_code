@@ -91,7 +91,7 @@ Now Copy and past the my code from ` Error_Handling_in_solidity_with_require_ass
      
    ```
 
-   The intial value of Value variable is the 0 after and before the comma ```words: [ 0,```
+   The intial value of Value variable is the `0` after and before the comma ```words: [ 0,```
 
    ```bash
    BN { negative: 0, words: [ 0, <1 empty item> ], length: 1, red: null }
