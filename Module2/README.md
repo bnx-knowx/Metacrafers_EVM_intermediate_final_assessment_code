@@ -18,13 +18,15 @@ Follow the Steps bellow :
 
 6-> copy deploy.js(from this repository) contents to the deploy.js file in the (scripts) folder
 
-7-> Inside the project directory named (SCM-Starter), in the 1st terminal type: `npm i`
+7-> install MetaMask Browser Extension
 
-8->Inside the project directory named (SCM-Starter), in the 2st terminal type: `npx hardhat node`
+8-> Inside the project directory named (SCM-Starter), in the 1st terminal type: `npm i`
 
-9->Inside the project directory named (SCM-Starter), in the 3st terminal type: `npx hardhat run --network localhost scripts/deploy.js`
+9->Inside the project directory named (SCM-Starter), in the 2st terminal type: `npx hardhat node`
 
-10->Back in the first terminal, type npm run dev to launch the front-end. Now read the below account setting instructions before 
+10->Inside the project directory named (SCM-Starter), in the 3st terminal type: `npx hardhat run --network localhost scripts/deploy.js`
+
+11->Back in the first terminal, type npm run dev to launch the front-end. Now read the below account setting instructions before 
 
 ## Setting up the local host network and a dummy account in your Metamask Wallet
 ->Here we need to set a local dummy account in the Metamask wallet. Since, By default MetaMask wallet is set to your one of real account so don't wanna mess with it. Thats why setteing dummy account
