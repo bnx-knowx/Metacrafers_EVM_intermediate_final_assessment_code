@@ -26,3 +26,9 @@ Follow the Steps bellow :
 
 10->Back in the first terminal, type npm run dev to launch the front-end.
 
+## Error handeling while trying to interact with your Metamask wallet
+
+-> if you get some error while depositing or withdrawing. This might because of nounce data mismatch with solidity contracts data so just reset your accounts nounce data then you should be good to go.
+
+
+
