@@ -8,11 +8,7 @@ Follow the Steps bellow :
 
 1-> clone this `https://github.com/bnx-knowx/SCM-Starter.git` repository
 
-2-> use this link `gitpod.io#https://github.com/bnx-knowx/SCM-Starter.git` to open a gitpod workspace with the above mentioned repo cloned and all the necessary dependecyes installed in one click
-
-or 
-
-use command `git clone https://github.com/bnx-knowx/SCM-Starter.git` to clone the repository in your local pc.
+2-> use command `git clone https://github.com/bnx-knowx/SCM-Starter.git` to clone the repository in your local pc.
 
 3-> Above repository contains all necessary file to interact with our smartcontract called Assessment.sol. I just made some changes for practice. Here we are going to change the file contents in (Assessment.sol in contracts folder), (index.js in pages folder) and (deploy.js in scripts folder) 
 
