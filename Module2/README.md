@@ -43,6 +43,8 @@ Follow the Steps bellow :
 
 ->set the (Currency symbol - ETH )
 
+->Now set the MetaMask wallet network to the newly created local network
+
 ->to set a account you have to import a account with the accounts private key which you can find in the 2nd terminal where we have exevuted this command `npx hardhat node` . after hiting the enter you can see there are many account number with private key is written in the terminal just take any accounts correcponding private key to import it your Metamask Wallet
  
 -> Head to http://localhost:3000/ to start interacting with the Metamask Wallet
