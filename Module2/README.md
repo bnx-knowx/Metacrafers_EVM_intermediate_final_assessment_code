@@ -16,7 +16,11 @@ use command `git clone https://github.com/bnx-knowx/SCM-Starter.git` to clone th
 
 3-> Above repository contains all necessary file to interact with our smartcontract called Assessment.sol. I just made some changes for practice. Here we are going to change the file contents in (Assessment.sol in contracts folder), (index.js in pages folder) and (deploy.js in scripts folder) 
 
-4-> rename the Assessment.sol file in contracts with MySmartContract.sol name and copy 
+4-> rename the Assessment.sol file in contracts with MySmartContract.sol name and copy MySmartContract.sol file contains to that file.
+
+5-> copy index.js(from this repository) contents to the index.js file in the (pages) folder
+
+6-> copy deploy.js(from this repository) contents to the deploy.js file in the (scripts) folder
 
 -> Inside the project directory named (SCM-Starter), in the 1st terminal type: `npm i`
 
