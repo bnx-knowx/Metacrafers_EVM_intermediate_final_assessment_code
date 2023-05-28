@@ -22,9 +22,11 @@ use command `git clone https://github.com/bnx-knowx/SCM-Starter.git` to clone th
 
 6-> copy deploy.js(from this repository) contents to the deploy.js file in the (scripts) folder
 
--> Inside the project directory named (SCM-Starter), in the 1st terminal type: `npm i`
+7-> Inside the project directory named (SCM-Starter), in the 1st terminal type: `npm i`
 
-->Inside the project directory named (SCM-Starter), in the 2st terminal type: `npx hardhat node`
+8->Inside the project directory named (SCM-Starter), in the 2st terminal type: `npx hardhat node`
 
-->Inside the project directory named (SCM-Starter), in the 3st terminal type: `npx hardhat run --network localhost scripts/deploy.js`
+9->Inside the project directory named (SCM-Starter), in the 3st terminal type: `npx hardhat run --network localhost scripts/deploy.js`
+
+10->Back in the first terminal, type npm run dev to launch the front-end.
 
