@@ -24,7 +24,28 @@ Follow the Steps bellow :
 
 9->Inside the project directory named (SCM-Starter), in the 3st terminal type: `npx hardhat run --network localhost scripts/deploy.js`
 
-10->Back in the first terminal, type npm run dev to launch the front-end.
+10->Back in the first terminal, type npm run dev to launch the front-end. Now read the below account setting instructions before 
+
+## Setting up the local host network and a dummy account in your Metamask Wallet
+->Here we need to set a local dummy account in the Metamask wallet. Since, By default MetaMask wallet is set to your one of real account so don't wanna mess with it. Thats why setteing dummy account
+
+->We need to set a local network witn the MetaMask wallet. otherwise Metamask will not be able to communicate with the local node. click on the MetaMask extension then click on the top middle button which is the network selection button
+
+->click on (Add a Network)
+
+->click on (Add a Network Manually)
+
+->give the (Network name - whatever you want)
+
+->set the (New RPC URL - http://127.0.0.1:8545/ )
+
+->set the (Chain ID - 31337 )
+
+->set the (Currency symbol - ETH )
+
+->to set a account you have to import a account with the accounts private key which you can find in the 2nd terminal where we have exevuted this command `npx hardhat node` . after hiting the enter you can see there are many account number with private key is written in the terminal just take any accounts correcponding private key to import it your Metamask Wallet
+ 
+-> Head to http://localhost:3000/ to interacting with the Metamask Wallet
 
 ## Error handeling while trying to interact with your Metamask wallet
 
