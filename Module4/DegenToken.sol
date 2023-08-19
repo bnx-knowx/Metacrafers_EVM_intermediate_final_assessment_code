@@ -10,23 +10,23 @@ contract DegenToken is ERC20, Ownable {
 
     constructor() ERC20("Degen", "DGN") {}
 
-        function mint(address to, uint256 amount) public onlyOwner { 
+        function Mint(address to, uint256 amount) public onlyOwner { 
             _mint (to, amount);
         }
 
-        function decimals() override public pure returns (uint8) { 
+        function Decimals() override public pure returns (uint8) { 
             return 0;
         }
 
-        function getBalance() external view returns (uint256) { 
+        function GetBalance() external view returns (uint256) { 
             return this.balanceOf(msg.sender);
         }
 
-        function transferTokens(address receiver, uint256 _value) external { 
+        function TransferTokens(address receiver, uint256 _value) external { 
             require(balanceOf(msg.sender) >= _value, "You do not have enough Degen Tokens"); 
             approve(msg.sender, _value); transferFrom(msg.sender, receiver, _value);
         }
-        function burnTokens (uint256 _value) public view{ 
+        function BurnSomeTokens (uint256 _value) public view{ 
             require(balanceOf(msg.sender) >= _value, "You do not have enough Degen Tokens");
         }
 }
